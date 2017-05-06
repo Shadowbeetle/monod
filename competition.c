@@ -32,5 +32,5 @@ int print_usage_and_die() {
 }
 
 float monod_comp (float u1max, float u2max, float ks1, float ks2, float v) {
-	return (v * u1max * ks2) - (u2max -ks1) / (ks1 + ks2);
+	return (v * u1max * ks2) - (u2max * ks1) / (ks1 + ks2);
 }
