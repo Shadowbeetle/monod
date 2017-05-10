@@ -33,3 +33,15 @@ Forditas (OS/X, Linux):
 `gcc -Wall competition.c -o competition`
 
 E mellett a monod.c forditasaval egy egyszeru fajlagos novekedesi sebeseeg szamolot kapunk.
+
+Hasznalata a kovetkezo keppen tortenik:
+
+`monod umax S Ks`
+
+peldaul: 
+
+`monod 0.8 2 0.5`
+
+Forditas (OS/X, Linux):
+
+`gcc -Wall monod.c -o monod`
