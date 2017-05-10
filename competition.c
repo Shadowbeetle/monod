@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define USAGE_1 "Usage: competition u1max[1/h] u2max[1/h] Ks1 Ks2 V [m3]"
+#define USAGE_1 "Usage: competition u1max[1/h] u2max[1/h] Ks1 Ks2 V[m3]"
 #define USAGE_2 "       eg. competition 0.8 2 0.5 1.2 20"
 
 float monod_comp (float u1max, float u2max, float ks1, float ks2, float v);
