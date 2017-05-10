@@ -10,13 +10,11 @@ int print_usage_and_die();
 
 
 int main (int argc, char *argv[]) {
-	if (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0) {
-		return (print_usage_and_die());
-	}
-	if (argc != 4) {
+	if (argc != 4 || argc != 2) {
 		printf("Invalid number of arguments\n");
 		return(print_usage_and_die());
 	}
+
 	float umax = atof(argv[1]);
 	float s = atof(argv[2]);
 	float ks = atof(argv[3]);

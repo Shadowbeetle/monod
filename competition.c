@@ -9,13 +9,11 @@ float monod_comp (float u1max, float u2max, float ks1, float ks2, float v);
 int print_usage_and_die();
 
 int main (int argc, char *argv[]) {
-	if (strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0) {
-		return (print_usage_and_die());
-	}
 	if (argc != 6) {
 		printf("Invalid number of arguments\n");
-		return(print_usage_and_die());
+		return print_usage_and_die();
 	}
+
 	float u1max = atof(argv[1]);
 	float u2max = atof(argv[2]);
 	float ks1 = atof(argv[3]);
