@@ -19,12 +19,17 @@ azt a folyadekaramot keressuk, ahol egy stabil allandosult allapot johet letre. 
 forditasaval kapott program.
 
 Hasznalata a kovetkezo keppen tortenik:
+
 `competition u1max[1/h] u2max[1/h] Ks1 Ks2 V [m3]`
-peldaul: `competition 0.8 2 0.5 1.2 20`
+
+peldaul: 
+
+`competition 0.8 2 0.5 1.2 20`
 
 Igy megkapjuk a szukesges terfogataramot m3/h-ban.
 
 Forditas (OS/X, Linux):
+
 `gcc -Wall competition.c -o competition`
 
 E mellett a monod.c forditasaval egy egyszeru fajlagos novekedesi sebeseeg szamolot kapunk.
