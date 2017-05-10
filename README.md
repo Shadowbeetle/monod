@@ -20,7 +20,7 @@ forditasaval kapott program.
 
 Hasznalata a kovetkezo keppen tortenik:
 
-`competition u1max[1/h] u2max[1/h] Ks1 Ks2 V [m3]`
+`competition u1max[1/h] u2max[1/h] Ks1 Ks2 V[m3]`
 
 peldaul: 
 
